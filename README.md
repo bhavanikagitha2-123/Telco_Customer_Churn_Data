@@ -109,5 +109,50 @@ Example features:
 - Internet service details  
 
 ---
+📁** Project Structure**
+telco-customer-churn/
+│
+├── data/
+│   ├── raw/
+│   │   └── telco_customer_churn.csv
+│   ├── processed/
+│   │   └── cleaned_data.csv
+│
+├── notebooks/
+│   ├── 01_EDA.ipynb
+│   ├── 02_Data_Preprocessing.ipynb
+│   ├── 03_Model_Training.ipynb
+│   └── 04_Model_Evaluation.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── evaluation.py
+│   └── utils.py
+│
+├── models/
+│   └── best_model.pkl
+│
+├── outputs/
+│   ├── plots/
+│   │   ├── churn_distribution.png
+│   │   ├── correlation_heatmap.png
+│   │   └── feature_importance.png
+│   └── reports/
+│       └── churn_analysis_report.pdf
+│
+├── app/
+│   ├── churn_predict_api.py   # (optional: Flask/FastAPI)
+│   └── model_loader.py
+│
+├── tests/
+│   └── test_model.py
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── LICENSE
 
 
