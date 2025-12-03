@@ -155,4 +155,12 @@ telco-customer-churn/
 ├── .gitignore
 └── LICENSE
 
+## 📫 How to Reach Me
+
+
+- 📧 Email: bhavanikagitha2@gmail.com
+ 
+  
+
+
 
